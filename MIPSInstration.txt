@@ -1,0 +1,6 @@
+beq $t0, $s0,L1
+bne $t1, $s1,L2
+add $t2,$t2,$s2
+sub $t3,$t3,$s3
+L1:lw $t4,1200($s4)
+L2:sw $t5,8($s5)
